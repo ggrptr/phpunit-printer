@@ -305,10 +305,9 @@ final class ProgressPrinter
             return;
         }
 
-        var_dump($event->testSuite()->name());
         $this->printer->print(
             sprintf(
-                "\nRunning %s (%d tests)\n\n",
+                "\n\n%s: (%d tests)\n------------------------------------\n",
                 $event->testSuite()->name(),
                 $event->testSuite()->count(),
             ),
