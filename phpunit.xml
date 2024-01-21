@@ -6,11 +6,11 @@ bootstrap="vendor/autoload.php"
 >
   <testsuites>
     <testsuite name="Unit">
-      <directory>src/Test</directory>
+      <directory>tests</directory>
     </testsuite>
 
     <testsuite name="Unit copy">
-      <directory>src/Test</directory>
+      <directory>tests</directory>
     </testsuite>
 
   </testsuites>
