@@ -15,7 +15,7 @@ bootstrap="vendor/autoload.php"
 
   </testsuites>
   <extensions>
-    <bootstrap class="ggrptrr\PHPUnitPrinter\Extension\Bootstrap" />
+    <bootstrap class="ggrptr\PHPUnitPrinter\Extension\Bootstrap" />
   </extensions>
 
 </phpunit>
