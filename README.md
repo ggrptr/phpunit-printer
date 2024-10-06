@@ -4,7 +4,7 @@ Add the following to your `phpunit.xml` file:
 
 ```xml
   <extensions>
-    <bootstrap class="ggrptrr\PHPUnitPrinter\Extension\Bootstrap" />
+    <bootstrap class="ggrptr\PHPUnitPrinter\Extension\Bootstrap" />
   </extensions>
 ```
 

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ggrptrr\PHPUnitPrinter\SummaryPrinter\Subscriber;
+namespace ggrptr\PHPUnitPrinter\SummaryPrinter\Subscriber;
 
 use PHPUnit\Event\Application\Finished;
 use PHPUnit\Event\Application\FinishedSubscriber;

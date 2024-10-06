@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ggrptrr\PHPUnitPrinter\SummaryPrinter;
+namespace ggrptr\PHPUnitPrinter\SummaryPrinter;
 
 use PHPUnit\Event\Application\Finished;
 use PHPUnit\Event\Facade;

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ggrptrr\PHPUnitPrinter\ResultPrinter;
+namespace ggrptr\PHPUnitPrinter\ResultPrinter;
 
 use PHPUnit\Event\Code\Test;
 use PHPUnit\Event\Code\TestMethod;
