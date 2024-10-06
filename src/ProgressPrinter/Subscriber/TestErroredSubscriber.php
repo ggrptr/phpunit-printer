@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ggrptrr\PHPUnitPrinter\ProgressPrinter\Subscriber;
+namespace ggrptr\PHPUnitPrinter\ProgressPrinter\Subscriber;
 
 use PHPUnit\Event\Test\Errored;
 use PHPUnit\Event\Test\ErroredSubscriber;

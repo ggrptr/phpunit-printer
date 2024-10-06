@@ -1,20 +1,20 @@
 <?php
 
-namespace ggrptrr\PHPUnitPrinter\Extension;
+namespace ggrptr\PHPUnitPrinter\Extension;
 
 use PHPUnit\Event\Facade as EventFacade;
 use PHPUnit\Runner\Extension\Extension;
 use PHPUnit\Runner\Extension\Facade;
 use PHPUnit\Runner\Extension\ParameterCollection;
 use PHPUnit\TextUI\Configuration\Configuration;
-use ggrptrr\PHPUnitPrinter\ResultPrinter\ResultPrinter;
+use ggrptr\PHPUnitPrinter\ResultPrinter\ResultPrinter;
 use PHPUnit\TextUI\Output\Default\ResultPrinter as DefaultResultPrinter;
 use PHPUnit\TextUI\Output\DefaultPrinter;
 use PHPUnit\TextUI\Output\NullPrinter;
 use PHPUnit\TextUI\Output\Printer;
-use ggrptrr\PHPUnitPrinter\SummaryPrinter\SummaryPrinter;
+use ggrptr\PHPUnitPrinter\SummaryPrinter\SummaryPrinter;
 use PHPUnit\TextUI\Output\TestDox\ResultPrinter as TestDoxResultPrinter;
-use ggrptrr\PHPUnitPrinter\ProgressPrinter\ProgressPrinter;
+use ggrptr\PHPUnitPrinter\ProgressPrinter\ProgressPrinter;
 
 class Bootstrap implements Extension
 {

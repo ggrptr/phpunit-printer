@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace ggrptrr\PHPUnitPrinter\ResultPrinter\Subscriber;
+namespace ggrptr\PHPUnitPrinter\ResultPrinter\Subscriber;
 
-use ggrptrr\PHPUnitPrinter\ResultPrinter\ResultPrinter;
+use ggrptr\PHPUnitPrinter\ResultPrinter\ResultPrinter;
 
 abstract class AbstractSubscriber
 {

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace ggrptrr\PHPUnitPrinter\ProgressPrinter\Subscriber;
+namespace ggrptr\PHPUnitPrinter\ProgressPrinter\Subscriber;
 
-use ggrptrr\PHPUnitPrinter\ProgressPrinter\ProgressPrinter;
+use ggrptr\PHPUnitPrinter\ProgressPrinter\ProgressPrinter;
 
 abstract class AbstractSubscriber
 {
